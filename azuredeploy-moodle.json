@@ -233,6 +233,11 @@
             "dependsOn": [
                 "[resourceId('Microsoft.Network/networkInterfaces/', variables('ansibleNicName'))]"
             ],
+      "plan": {
+        "name": "ubuntu-22",
+        "publisher": "yaseensmarket1645449809728",
+        "product": "ubuntu-22"
+      }
             "properties": {
                 "hardwareProfile": {
                     "vmSize": "[variables('ansibleVmSku')]"
