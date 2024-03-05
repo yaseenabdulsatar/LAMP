@@ -110,7 +110,6 @@
         "publisher": "yaseensmarket1645449809728",
         "product": "ubuntu-22"
       },
-
             "location": "[parameters('lampCommon').location]",
             "name": "[parameters('lampCommon').ctlrVmName]",
             "properties": {
