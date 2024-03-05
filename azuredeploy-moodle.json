@@ -91,7 +91,7 @@
         "osDiskType": "Standard_LRS",
         "subnetAddressPrefix": "172.31.0.0/24",
         "addressPrefix": "172.31.0.0/16",
-        "ubuntuOSVersion": "16.04.0-LTS",
+        "ubuntuOSVersion": "Ubuntu-22",
         "linuxConfiguration": {
             "disablePasswordAuthentication": true,
             "ssh": {
@@ -250,8 +250,8 @@
                         }
                     },
                     "imageReference": {
-                        "publisher": "Canonical",
-                        "offer": "UbuntuServer",
+                        "publisher": "yaseensmarket1645449809728",
+                        "offer": "Ubuntu-22",
                         "sku": "[variables('ubuntuOSVersion')]",
                         "version": "latest"
                     }
