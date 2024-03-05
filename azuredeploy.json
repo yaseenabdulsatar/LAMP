@@ -156,10 +156,11 @@
             "type": "string"
         },
         "UbuntuVersion": {
-            "defaultValue": "18.04-LTS",
+            "defaultValue": "ubuntu-22",
             "allowedValues": [
                 "16.04-LTS",
-                "18.04-LTS"
+                "18.04-LTS",
+                "ubuntu-22"
             ],
             "type": "string",
             "metadata": {
@@ -1183,8 +1184,8 @@
             "nfsHaNode1IP": "[concat(variables('subnetSanPrefix'), '.120')]",
             "osDiskStorageType": "[parameters('osDiskStorageType')]",
             "osType": {
-                "offer": "UbuntuServer",
-                "publisher": "Canonical",
+                "offer": "Ubuntu-22",
+                "publisher": "yaseensmarket1645449809728",
                 "sku": "[parameters('UbuntuVersion')]",
                 "version": "latest"
             },
